@@ -3,10 +3,10 @@ import { Nav, NavItem } from "reactstrap";
 import { NavLink, useNavigate } from "react-router-dom";
 
 const Header = (currentUser) => {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
   const handleClick = () => {
-    navigate("/");
-  };
+    navigate("/")
+  }
 
   return (
     <>
@@ -59,6 +59,6 @@ const Header = (currentUser) => {
         )}
       </Nav>
     </>
-  );
-};
-export default Header;
+  )
+}
+export default Header
