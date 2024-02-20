@@ -24,6 +24,7 @@ const App = () => {
     <>
       {/* Routes for individual pages */}
       <Header currentUser={currentUser} />
+      <div class="container">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/signin" element={<SignIn />} />
@@ -49,6 +50,7 @@ const App = () => {
         />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      </div>
       <Footer />
     </>
   );
