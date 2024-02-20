@@ -1,38 +1,66 @@
-.App {
+/* app.css */
+
+/* Footer styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer h4 {
+  font-size: 20px; /* Increased font size */
+  font-weight: bold; /* Added font weight */
+  margin-bottom: 15px; /* Increased margin */
+  color: #fff; /* Set color to white */
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 1px; /* Added letter spacing */
+}
+
+/* Centering everything under h4 tags */
+.footer .col-md-4 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Updated styles for NavLink */
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  display: block; /* Ensure each NavLink is displayed on a new line */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer a:hover {
+  text-decoration: underline;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+/* Social media icons */
+.footer .col-md-4:last-child a {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer .col-md-4:last-child a:not(:last-child) {
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .footer .container {
+    flex-direction: column;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .footer .col-md-4 {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
   }
 }
