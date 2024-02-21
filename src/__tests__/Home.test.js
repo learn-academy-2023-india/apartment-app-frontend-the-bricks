@@ -1,6 +1,6 @@
-import { render, screen, queryByAttribute, } from '@testing-library/react';
-import Home from '../pages/Home'
-import { BrowserRouter } from 'react-router-dom'
+import { render, screen } from "@testing-library/react"
+import Home from "../pages/Home"
+import { BrowserRouter } from "react-router-dom"
 import Video from "../assets/video.mp4"
 
 describe("<Home />", () => {
@@ -11,14 +11,28 @@ describe("<Home />", () => {
       </BrowserRouter>
     )
   })
+
   it("renders a video", () => {
     render(
       <BrowserRouter>
         <Home />
       </BrowserRouter>
     )
-    screen.logTestingPlaygroundURL()
-    const testVideo = screen.getElementById("video")
-    expect (testVideo).toHaveAttribute("src", "type", Video)
-})
+
+    const testVideo = screen.getByRole("video")
+    expect(testVideo).toHaveAttribute("src", Video)
+  })
+
+  it("it renders  a heading", () => {
+    render(
+      <BrowserRouter>
+        <Home />
+      </BrowserRouter>
+    )
+
+    const heading = screen.getByRole("heading", {
+      name: /hello/i,
+    })
+    expect(heading).toBeInTheDocument()
+  })
 })
