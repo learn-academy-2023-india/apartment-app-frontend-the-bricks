@@ -9,7 +9,7 @@ const Header = (currentUser) => {
   }
 
   return (
-    <>
+    <header>
       <Nav>
         <NavItem>
           <NavLink to="/" className="nav-link">
@@ -58,7 +58,7 @@ const Header = (currentUser) => {
           </>
         )}
       </Nav>
-    </>
+    </header>
   )
 }
 export default Header
