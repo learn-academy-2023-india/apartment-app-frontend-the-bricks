@@ -9,7 +9,7 @@ const Header = (currentUser) => {
   }
 
   return (
-    <header class="header">
+    <header className="header">
       <Nav>
         <NavItem>
           <NavLink to="/" className="nav-link">
@@ -35,9 +35,9 @@ const Header = (currentUser) => {
               </NavLink>
             </NavItem>
 
-            <NavItem>
+            <NavItem className="redbutton">
               <NavLink className="nav-link" onClick={handleClick}>
-                Log Out
+                Sign Out
               </NavLink>
             </NavItem>
           </>

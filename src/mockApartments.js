@@ -6,12 +6,12 @@ let mockApartments = [
     city: "San Diego",
     state: "CA",
     square_footage: 500,
-    price: "1800",
+    price: "$1,800",
     bedrooms: 2,
     bathrooms: 2.0,
     pets: "yes!",
     image:
-      "https://images.unsplash.com/photo-1469022563428-aa04fef9f5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80",
+      "https://images1.apartments.com/i2/A41JhQiJb64getK1c4uvF9YV89xtf3p5y0zvd8oXpic/117/the-courtyards-pacific-village-san-diego-ca-building-photo.jpg",
     user_id: 1
   },
   {
@@ -21,12 +21,12 @@ let mockApartments = [
     city: "San Diego",
     state: "CA",
     square_footage: 700,
-    price: "2500",
+    price: "$2,500",
     bedrooms: 2,
     bathrooms: 2.0,
     pets: "yes!",
     image:
-      "https://images.unsplash.com/photo-1469022563428-aa04fef9f5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c9/AIMCO_apartment_exterior.jpg",
     user_id: 1
   },
   {
@@ -36,12 +36,12 @@ let mockApartments = [
     city: "San Diego",
     state: "CA",
     square_footage: 400,
-    price: "2000",
+    price: "$2,000",
     bedrooms: 1,
     bathrooms: 2.0,
     pets: "small pets okay",
     image:
-      "https://images.unsplash.com/photo-1469022563428-aa04fef9f5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80",
+      "https://images1.apartments.com/i2/V3o3tvUkAUIJOm0TLpdNvEG1aLNOHio_P7tb8QiXUJo/117/one-paseo-living-san-diego-ca-building-photo.jpg?p=1",
     user_id: 2
   }
 ]

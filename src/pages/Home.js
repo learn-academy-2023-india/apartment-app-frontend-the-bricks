@@ -8,7 +8,7 @@ const Home = () => {
         <source role="video" src={Video} type="video/mp4" />
       </video>
         <div className="overlay">
-          <h1 className="title">Welcome to The Bricks</h1>
+          <h1 className="title">Welcome to The Bricks </h1>
         </div>
     </div>
   )

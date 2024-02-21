@@ -28,9 +28,9 @@ it('has clickable links', () => {
   userEvent.click(screen.getByText('My Apartments'))
   expect(screen.getByText('My Apartments')).toBeInTheDocument()
 
-  userEvent.click(screen.getByText('Add A Listing'))
-  expect(screen.getByText('Add A Listing')).toBeInTheDocument()
+  userEvent.click(screen.getByText('Add Listing'))
+  expect(screen.getByText('Add Listing')).toBeInTheDocument()
 
-  userEvent.click(screen.getByText('Log Out'))
-  expect(screen.getByText('Log Out')).toBeInTheDocument()
+  userEvent.click(screen.getByText('Sign Out'))
+  expect(screen.getByText('Sign Out')).toBeInTheDocument()
 })
