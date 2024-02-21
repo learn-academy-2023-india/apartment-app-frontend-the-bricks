@@ -1,15 +1,15 @@
-import React from "react";
-import { Nav, NavItem } from "reactstrap";
-import { NavLink, useNavigate } from "react-router-dom";
+import React from 'react'
+import { Nav, NavItem } from 'reactstrap'
+import { NavLink, useNavigate } from 'react-router-dom'
 
 const Header = (currentUser) => {
   const navigate = useNavigate()
   const handleClick = () => {
-    navigate("/")
+    navigate('/')
   }
 
   return (
-    <header>
+    <header class="header">
       <Nav>
         <NavItem>
           <NavLink to="/" className="nav-link">
@@ -31,7 +31,7 @@ const Header = (currentUser) => {
             </NavItem>
             <NavItem>
               <NavLink to="/apartmentnew" className="nav-link">
-                Add A Listing
+                Add Listing
               </NavLink>
             </NavItem>
 
