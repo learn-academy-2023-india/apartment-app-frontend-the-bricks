@@ -1,10 +1,10 @@
-import { render, screen } from '@testing-library/react'
-import { BrowserRouter } from 'react-router-dom'
-import userEvent from '@testing-library/user-event'
-import ApartmentIndex from '../pages/ApartmentIndex'
+import { render, screen } from "@testing-library/react"
+import { BrowserRouter } from "react-router-dom"
+import userEvent from "@testing-library/user-event"
+import ApartmentIndex from "../pages/ApartmentIndex"
 
-describe('<ApartmentIndex/>', () => {
-  it('renders without crashing', () => {
+describe("<ApartmentIndex/>", () => {
+  it("renders without crashing", () => {
     render(
       <BrowserRouter>
         <ApartmentIndex/>
@@ -13,7 +13,7 @@ describe('<ApartmentIndex/>', () => {
   })
 })
 
-it('renders with a heading', () => {
+it("renders with a heading", () => {
   render(
     <BrowserRouter>
       <ApartmentIndex/>
@@ -24,7 +24,7 @@ it('renders with a heading', () => {
   expect(heading).toBeInTheDocument()
   })
   
-it('renders with text', () => {
+it("renders with text", () => {
   render(
     <BrowserRouter>
       <ApartmentIndex/>
