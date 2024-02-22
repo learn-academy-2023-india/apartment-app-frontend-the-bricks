@@ -1,14 +1,9 @@
-/* ENCOMPASSES ALL */
 * {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #fff;
 }
-
-/* HEADER */
 .header {
   display: flex;
-  /* justify-content: space-between; */
-  /* align-items: flex-end; */
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.3);
   position: fixed;
@@ -32,12 +27,8 @@
 .redbutton {
   display: inline-flex;
   align-items: center;
-  /* justify-content: center; */
   padding: 0.5rem 1rem;
   background: #f92d2d;
-  /* color: #fff; */
-  /* font-size: 1rem; */
-  /* text-transform: uppercase; */
   letter-spacing: 3px;
   border: none;
   line-height: 0px;
@@ -47,8 +38,6 @@
   background: #fff;
   border: solid thin red;
 }
-
-/* BACKGROUND */
 video {
   position: fixed;
   top: 0;
@@ -71,8 +60,6 @@ video {
   letter-spacing: 4px;
   width: 100%;
 }
-
-/* footer */
 .footer {
   background-color: transparent;
   color: #fff;
@@ -142,4 +129,7 @@ video {
 .apart-button-index {
   margin-top: 20px;
   margin-bottom: 1px;
+}
+b {
+  color:grey;
 }

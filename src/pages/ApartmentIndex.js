@@ -27,7 +27,9 @@ const ApartmentIndex = ({ apartments }) => {
                 />
                 <CardBody>
                   <div className="apart-text-index">
-                    <CardTitle>{apartment.price} Per Month</CardTitle>
+                    <CardTitle>
+                      {apartment.price} Per Month
+                    </CardTitle>
                     <CardSubtitle>
                       {apartment.street}, {apartment.city}, {apartment.state}
                     </CardSubtitle>
@@ -40,10 +42,7 @@ const ApartmentIndex = ({ apartments }) => {
                     className="nav-link"
                   >
                     <div role="button">
-                      <Button className="apart-button-index">
-                        More Details
-                      </Button>
-                    </div>
+                    <Button className="apart-button-index">More Details</Button></div>
                   </NavLink>
                 </CardBody>
               </Card>

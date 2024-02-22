@@ -22,8 +22,7 @@ it("renders with a heading", () => {
   screen.logTestingPlaygroundURL()
   const heading = screen.getByRole("heading")
   expect(heading).toBeInTheDocument()
-})
-
+  
 it("renders with text", () => {
   render(
     <BrowserRouter>

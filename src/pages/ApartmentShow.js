@@ -9,7 +9,8 @@ import {
   Button,
 } from "reactstrap"
 
-const ApartmentShow = ({ apartments }) => {
+
+const ApartmentShow = ({ apartments}) => {
   const { id } = useParams()
   const currentApartment = apartments.find((apartment) => apartment.id === +id)
 
