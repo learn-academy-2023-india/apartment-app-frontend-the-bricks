@@ -13,8 +13,6 @@ describe("<ApartmentShow />", () => {
         </Routes>
       </MemoryRouter>
     )
-
-    
       expect(screen.getByText(/Per Month/i)).toBeInTheDocument()
       expect(
         screen.getByText(
