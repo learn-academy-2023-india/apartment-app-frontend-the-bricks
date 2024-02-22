@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import {
   Card,
   CardImg,
@@ -6,8 +6,8 @@ import {
   CardTitle,
   CardSubtitle,
   Button,
-} from 'reactstrap'
-import { NavLink } from 'react-router-dom'
+} from "reactstrap"
+import { NavLink } from "react-router-dom"
 
 const ApartmentIndex = ({ apartments }) => {
   return (
@@ -27,9 +27,7 @@ const ApartmentIndex = ({ apartments }) => {
                 />
                 <CardBody>
                   <div className="apart-text-index">
-                    <CardTitle>
-                      {apartment.price} Per Month
-                    </CardTitle>
+                    <CardTitle>{apartment.price} Per Month</CardTitle>
                     <CardSubtitle>
                       {apartment.street}, {apartment.city}, {apartment.state}
                     </CardSubtitle>
@@ -42,7 +40,10 @@ const ApartmentIndex = ({ apartments }) => {
                     className="nav-link"
                   >
                     <div role="button">
-                    <Button className="apart-button-index">More Details</Button></div>
+                      <Button className="apart-button-index">
+                        More Details
+                      </Button>
+                    </div>
                   </NavLink>
                 </CardBody>
               </Card>
@@ -58,14 +59,14 @@ export default ApartmentIndex
 // const CatIndex = ({ cats }) => {
 //   return (
 //     <>
-//       <div className="meet-and-greet">   
+//       <div className="meet-and-greet">
 //         <h3>Meet Your Fellow Felines</h3>
 //       </div>
 //       <div className="cat-index-section">
 //         {cats?.map((cat) => {
 //           return (
 //             <div key={cat.id} className="cat-profile-container">
-//               <img 
+//               <img
 //                 src={cat.image}
 //                 alt="profile of all our cats friends"
 //                 className="cat-profile-pic"

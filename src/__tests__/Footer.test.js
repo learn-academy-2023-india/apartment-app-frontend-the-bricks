@@ -1,9 +1,9 @@
-import { BrowserRouter } from 'react-router-dom'
-import { render, screen } from '@testing-library/react'
-import Footer from '../components/Footer'
+import { BrowserRouter } from "react-router-dom"
+import { render, screen } from "@testing-library/react"
+import Footer from "../components/Footer"
 
-describe('<Footer />', () => {
-  it('renders company name', () => {
+describe("<Footer />", () => {
+  it("renders company name", () => {
     render(
       <BrowserRouter>
         <Footer />
@@ -14,7 +14,7 @@ describe('<Footer />', () => {
     expect(footer).toBeInTheDocument()
   })
 
-  it('renders comapny information', () => {
+  it("renders comapny information", () => {
     render(
       <BrowserRouter>
         <Footer />
@@ -24,7 +24,7 @@ describe('<Footer />', () => {
     expect(footer).toBeInTheDocument()
   })
 
-  it('renders contact information', () => {
+  it("renders contact information", () => {
     render(
       <BrowserRouter>
         <Footer />
@@ -34,7 +34,7 @@ describe('<Footer />', () => {
     expect(footer).toBeInTheDocument()
   })
 
-  it('renders legal information', () => {
+  it("renders legal information", () => {
     render(
       <BrowserRouter>
         <Footer />
@@ -44,7 +44,7 @@ describe('<Footer />', () => {
     expect(footer).toBeInTheDocument()
   })
 
-  it('renders privact informtaion', () => {
+  it("renders privact informtaion", () => {
     render(
       <BrowserRouter>
         <Footer />
@@ -54,7 +54,7 @@ describe('<Footer />', () => {
     expect(footer).toBeInTheDocument()
   })
 
-  it('renders terms of use', () => {
+  it("renders terms of use", () => {
     render(
       <BrowserRouter>
         <Footer />
@@ -64,7 +64,7 @@ describe('<Footer />', () => {
     expect(footer).toBeInTheDocument()
   })
 
-  it('renders connect with us', () => {
+  it("renders connect with us", () => {
     render(
       <BrowserRouter>
         <Footer />
@@ -74,7 +74,7 @@ describe('<Footer />', () => {
     expect(footer).toBeInTheDocument()
   })
 
-  it('renders socail media connections', () => {
+  it("renders socail media connections", () => {
     render(
       <BrowserRouter>
         <Footer />
@@ -84,7 +84,7 @@ describe('<Footer />', () => {
     expect(footer).toBeInTheDocument()
   })
 
-  it('renders socail media connections', () => {
+  it("renders socail media connections", () => {
     render(
       <BrowserRouter>
         <Footer />
@@ -94,7 +94,7 @@ describe('<Footer />', () => {
     expect(footer).toBeInTheDocument()
   })
 
-  it('renders socail media connections', () => {
+  it("renders socail media connections", () => {
     render(
       <BrowserRouter>
         <Footer />
