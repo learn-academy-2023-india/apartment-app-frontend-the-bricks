@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
 const ApartmentEdit = () => {
-  return <div>ApartmentEdit</div>;
-};
+  return <div>ApartmentEdit</div>
+}
 
-export default ApartmentEdit;
+export default ApartmentEdit

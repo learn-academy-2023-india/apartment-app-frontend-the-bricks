@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
 const ApartmentProtectedIndex = () => {
-  return <div>ApartmentProtectedIndex</div>;
-};
+  return <div>ApartmentProtectedIndex</div>
+}
 
-export default ApartmentProtectedIndex;
+export default ApartmentProtectedIndex
